@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --color-primario: #F96316;
+  --color-primario-hover: #EA580C;
+  --color-secundario: #262626;
+  --color-fondo: #141414;
+  --color-tarjeta: #1F1F1F;
+  --color-borde: #2E2E2E;
+  --color-texto: #FFFFFF;
+  --color-texto-secundario: #A3A3A3;
+  --fuente-principal: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--fuente-principal);
+}
+
+.texto-naranja {
+  color: var(--color-primario);
+}
+
+/* Botones reutilizables */
+.btn-haikyuu {
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.55rem 1.2rem;
+}
+
+.btn-primary {
+  background-color: var(--color-primario);
+  border-color: var(--color-primario);
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primario-hover);
+  border-color: var(--color-primario-hover);
+}
+
+.btn-secondary {
+  background-color: var(--color-secundario);
+  border-color: var(--color-borde);
+  color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+  background-color: #333333;
+  border-color: #404040;
+}
+
+/* Campos de formulario */
+.input-haikyuu {
+  background-color: #181818;
+  border: 1px solid var(--color-borde);
+  color: var(--color-texto);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+}
+
+.input-haikyuu:focus {
+  background-color: #181818;
+  border-color: var(--color-primario);
+  color: var(--color-texto);
+  box-shadow: none;
+}
+
+.input-haikyuu.is-invalid {
+  border-color: #EF4444;
+}
+
+/* Tarjeta de jugador */
+.tarjeta-haikyuu {
+  background-color: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.avatar-jugador {
+  background-color: #2A2A2A;
+  border-radius: 8px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #737373;
+  font-size: 2.5rem;
+}
