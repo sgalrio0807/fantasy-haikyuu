@@ -2,6 +2,7 @@
 
 Aplicación web de tipo Fantasy Sports ambientada en el universo del anime Haikyuu!!
 
+
 ## Equipo
 - Sergio Galán
-- Juan Manuel Domínguez
+- Juan Manuel Domínguez (https://github.com/Juanma200343)
